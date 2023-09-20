@@ -35,7 +35,6 @@ columns = 5
 [node name="HUD" parent="." instance=ExtResource("3_vc1ga")]
 top_level = false
 layout_mode = 1
-anchors_preset = 15
 offset_left = 0.0
 offset_top = 850.0
 offset_right = 0.0

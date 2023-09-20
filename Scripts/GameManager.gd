@@ -4,8 +4,6 @@ extends Node
 
 var deck = Array()
 
-var cardBack = preload("res://Assets/cross_back.png")
-
 var card1
 var card2
 
@@ -77,6 +75,7 @@ func countSeconds():
 	seconds += 1
 	timerLabel.text = str(seconds)
 
+
 func fillDeck():
 	var j = 1
 	var i = 1
@@ -86,6 +85,7 @@ func fillDeck():
 			deck.append(Card.new(j,i))
 			i += 1
 		j += 1
+
 
 func dealDeck():
 	deck.shuffle()
